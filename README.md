@@ -124,6 +124,8 @@ Backend runs on port 4000, frontend on 3000
 
 Simple validation on task creation
 
+- **Infinite Scroll Carousel:** The automatic vertical scrolling carousel was implemented with guidance from ChatGPT and adapted to fit the project requirements. Users can still manually scroll through tasks.  
+
 ## Time Spent
 Backend API: 70 minutes
 
@@ -132,4 +134,5 @@ Frontend Core Features: 80 minutes
 Styling & Polish: 55 minutes
 
 Testing & Debugging: 35 minutes
+
 
