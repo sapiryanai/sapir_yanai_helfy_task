@@ -1,0 +1,127 @@
+/* App.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 2000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 40px;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* TaskForm */
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.task-form input, 
+.task-form select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  flex: 1;
+  min-width: 150px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.task-form button:hover {
+  background-color: #0056b3;
+}
+
+/* TaskFilter */
+.task-filter {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.task-filter button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  transition: 0.3s;
+}
+
+.task-filter button:hover,
+.task-filter button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* TaskList */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* TaskItem */
+.task-item {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.task-item.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+.search-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+
+/* Buttons inside task */
+.task-item button {
+  margin-top: 10px;
+  margin-right: 8px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.2s;
+}
+
+

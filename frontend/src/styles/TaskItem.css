@@ -1,0 +1,50 @@
+.task-item {
+  padding: 15px 30px;
+    margin: 20px 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  border-left: 5px solid transparent;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+/* Priority badges */
+.task-item .priority-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 2px 15px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.task-item.low .priority-badge {
+  background-color: green;
+}
+.task-item.medium .priority-badge {
+  background-color: orange;
+}
+.task-item.high .priority-badge {
+  background-color: red;
+}
+
+
+.task-item.completed {
+  background-color: #e0ffe0;
+  opacity: 0.6;
+  text-decoration: line-through;
+  transform: scale(0.98);
+}
+
+
+.task-item.completed h3,
+.task-item.completed p,
+.task-item.completed small {
+  transition: color 0.5s ease, opacity 0.5s ease;
+  color: #555;
+}

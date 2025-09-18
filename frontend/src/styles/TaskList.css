@@ -1,0 +1,30 @@
+.carousel-wrapper {
+  height: 8000px;
+  overflow: hidden; 
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  animation: scroll 70s linear infinite; 
+}
+
+.carousel:hover {
+  animation-play-state: paused; 
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%); 
+  }
+}
+
+.carousel .task-item {
+  margin: 10px 0;
+}

@@ -1,0 +1,32 @@
+/* TaskForm.css */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+  justify-content: flex-start; /* מסדר את השדות משמאל */
+}
+
+input, select {
+  flex: 0 0 200px; /* רוחב קבוע של 200px */
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+button {
+  flex: 0 0 auto; /* לא יתפרס על כל השורה */
+  padding: 8px 15px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
