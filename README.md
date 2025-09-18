@@ -134,5 +134,7 @@ Frontend Core Features: 80 minutes
 Styling & Polish: 55 minutes
 
 Testing & Debugging: 35 minutes
+<img width="1492" height="885" alt="image" src="https://github.com/user-attachments/assets/183546fc-e9c5-4474-9c45-155ce62c8532" />
+
 
 
