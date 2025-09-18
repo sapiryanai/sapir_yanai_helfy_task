@@ -23,12 +23,23 @@ Allows users to create, view, edit, delete, and toggle tasks with priorities, fi
 ## Backend Setup
 1. cd backend
 2. npm install
-3. node server.js (runs on port 4000)
+3. npm start (runs on port 4000)
 
 ## Frontend Setup
 1. cd frontend
 2. npm install
 3. npm start(runs on port 3000)
+
+## Running the App
+1. Start backend:
+   cd backend
+   npm install
+   node server.js
+2. Start frontend:
+   cd frontend
+   npm install
+   npm start
+3. Open http://localhost:3000 in your browser
 
 ## API Endpoints
 1. Get All Tasks
@@ -121,3 +132,4 @@ Frontend Core Features: 80 minutes
 Styling & Polish: 55 minutes
 
 Testing & Debugging: 35 minutes
+
